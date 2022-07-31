@@ -46,7 +46,7 @@ const Board: FC = (): JSX.Element => {
     );
 }
 
-export const Popup: FC = (): JSX.Element => {
+export const TicTacToe: FC = (): JSX.Element => {
     return (
         <div className='game'>
             <div className='game-board'>
@@ -57,6 +57,12 @@ export const Popup: FC = (): JSX.Element => {
                 <ol>{/* TODO */}</ol>
             </div>
         </div>
+    );
+}
+
+export const Popup: FC = (): JSX.Element => {
+    return (
+        <TicTacToe />
     );
 }
 
